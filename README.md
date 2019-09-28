@@ -60,7 +60,7 @@ Simple ToDo App in Vanilla JS with using AJAX + PHP
 [Link](http://romanenko1509.zzz.com.ua/to-do/)  
 [Source on GitHub](https://github.com/romanenko1509/ToDoApp)
 
-Simpe Weather App in React.JS  
+Simple Weather App in React.JS  
 [Link](https://romanenko1509.github.io/reactWeatherApp/)  
 [Source on GitHub](https://github.com/romanenko1509/reactWeatherApp)
 
