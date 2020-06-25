@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="root" :class="{dark: darkTheme, white: !darkTheme}">
+        <header class="header">
+            <div class="socials">
+                <a href="https://github.com/romanenko1509">
+                    <img src="img/github_l.png" alt="" v-if="darkTheme">
+                    <img src="img/github.png" alt="" v-else>
+                </a>
+                <a href="https://www.linkedin.com/in/romanenko1509/">
+                    <img src="img/linkedin_l.png" alt="" v-if="darkTheme">
+                    <img src="img/linkedin.png" alt="" v-else>
+                </a>
+                <a href="https://t.me/romanenko1509">
+                    <img src="img/telegram_l.png" alt="" v-if="darkTheme">
+                    <img src="img/telegram.png" alt="" v-else>
+                </a>
+                <a href="https://join.skype.com/invite/fAhLX2Kuntxu">
+                    <img src="img/skype_l.png" alt="" v-if="darkTheme">
+                    <img src="img/skype.png" alt="" v-else>
+                </a>
+                <a href="mailto:romanenko15091999@icloud.com">
+                    <img src="img/mail_l.png" alt="" v-if="darkTheme">
+                    <img src="img/mail.png" alt="" v-else>
+                </a>
+                <a href="tel:+380500850161">
+                    <img src="img/phone_l.png" alt="" v-if="darkTheme">
+                    <img src="img/phone.png" alt="" v-else>
+                </a>
+            </div>
+            <div class="toggleTheme" @click="toggleTheme">
+                <img src="img/light.png" alt="" v-if="darkTheme">
+                <img src="img/dark.png" alt="" v-else>
+            </div>
+        </header>
+        <h1>Front-end developer</h1>
+        <h2>Nikita Romanenko</h2>
+        <h3>15/09/1999</h3>
+        <h3>Kharkiv, Ukraine</h3>
+        <p>I have been developing Front-End for over 2 years. Behind the back of more than a hundred successfully completed projects, both in various companies and on freelance. I quickly adapt to the tasks of the company, I am always ready to learn and grow professionally. I adequately assess the tasks, time and resources necessary for their implementation, I can quickly navigate in case of difficulties and problems.</p>
+        <h2>Work experience</h2>
+        <ul>
+            <li>
+                <div class="cmpny_name">"Apricode Digital Agency"</div>
+                <div class="cmpny_pos">Front-end developer</div>
+                <div class="cmpny_time">October 2019 - Now</div>
+            </li>
+            <li>
+                <div class="cmpny_name">"Aweb Systems"</div>
+                <div class="cmpny_pos">Front-end developer</div>
+                <div class="cmpny_time">September 2018 - October 2019</div>
+            </li>
+            <li>
+                <div class="cmpny_name">Freelance</div>
+                <div class="cmpny_pos">Front-end developer</div>
+                <div class="cmpny_time">February 2018 - September 2018</div>
+            </li>
+        </ul>
+        <h2>Skills</h2>
+        <ul class="skills">
+            <li>
+                HTML
+                <ul>
+                    <li>BEM Methodology</li>
+                    <li>Semantical markup</li>
+                    <li>W3C Validation</li>
+                    <li>Accessibility</li>
+                </ul>
+            </li>
+            <li>
+                CSS
+                <ul>
+                    <li>
+                        CSS Frameworks
+                        <ul>
+                            <li>Bootstrap 3/4</li>
+                            <li>Foundation</li>
+                            <li>Materialize.css</li>
+                            <li>Tailwind CSS</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Preprocessors
+                        <ul>
+                            <li>SASS (SCSS)</li>
+                            <li>LESS</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                JavaScript
+                <ul>
+                    <li>Vue.js + VueX</li>
+                    <li>React.js + Redux experience</li>
+                    <li>jQuery</li>
+                    <li>TypeScript experience</li>
+                    <li>Node.js experience</li>
+                    <li>Ajax requests</li>
+                    <li>API experience</li>
+                </ul>
+            </li>
+            <li>
+                Project Build Tools
+                <ul>
+                    <li>Gulp 3/4</li>
+                    <li>Webpack</li>
+                    <li>npm</li>
+                    <li>Git</li>
+                </ul>
+            </li>
+            <li>
+                Content Management Systems (CMS)
+                <ul>
+                    <li>Laravel</li>
+                    <li>WordPress</li>
+                    <li>OpenCart</li>
+                </ul>
+            </li>
+            <li>Experience with PHP + SQL</li>
+            <li>Understanding of principles Object-oriented programming (OOP)</li>
+            <li>Skills of optimization Google Page Speed & SEO-Friendly</li>
+            <li>Confident use of both Windows and UNIX-like systems (MacOS, Linux)</li>
+        </ul>
+        <h2>Projects</h2>
+        <ul class="projects">
+            <li>
+                Finance Management Application on Vue.js
+                <ul>
+                    <li><a href="https://vuefinancecrm.web.app/login?message=login">Link</a></li>
+                    <li><a href="https://github.com/romanenko1509/VueFinanceManagementApplication">Source code</a></li>
+                </ul>
+            </li>
+            <li>
+                Simple Weather App in React.JS
+                <ul>
+                    <li><a href="https://romanenko1509.github.io/reactWeatherApp/">Link</a></li>
+                    <li><a href="https://github.com/romanenko1509/reactWeatherApp">Source code</a></li>
+                </ul>
+            </li>
+            <li>
+                Simple currency converter from UAH to USD written in Vanilla JavaScript with using the PrivatBank API
+                <ul>
+                    <li><a href="https://romanenko1509.github.io/ExchangeRates/">Link</a></li>
+                    <li><a href="https://github.com/romanenko1509/ExchangeRates">Source code</a></li>
+                </ul>
+            </li>
+            <li>
+                Commercial projects
+                <ul>
+                    <li><a href="https://gadgik.net/">https://gadgik.net/</a></li>
+                    <li><a href="https://bestbarber.com.ua/">https://bestbarber.com.ua/</a></li>
+                    <li><a href="https://tara.pet/">https://tara.pet/</a></li>
+                    <li><a href="https://barintoy.com/">https://barintoy.com/</a></li>
+                    <li><a href="https://agroambar.com/">https://agroambar.com/</a></li>
+                </ul>
+                And many others
+            </li>
+        </ul>
+        <h2>Contacts</h2>
+        <div class="socials">
+            <a href="https://github.com/romanenko1509">
+                <img src="img/github_l.png" alt="" v-if="darkTheme">
+                <img src="img/github.png" alt="" v-else>
+            </a>
+            <a href="https://www.linkedin.com/in/romanenko1509/">
+                <img src="img/linkedin_l.png" alt="" v-if="darkTheme">
+                <img src="img/linkedin.png" alt="" v-else>
+            </a>
+            <a href="https://t.me/romanenko1509">
+                <img src="img/telegram_l.png" alt="" v-if="darkTheme">
+                <img src="img/telegram.png" alt="" v-else>
+            </a>
+            <a href="https://join.skype.com/invite/fAhLX2Kuntxu">
+                <img src="img/skype_l.png" alt="" v-if="darkTheme">
+                <img src="img/skype.png" alt="" v-else>
+            </a>
+            <a href="mailto:romanenko15091999@icloud.com">
+                <img src="img/mail_l.png" alt="" v-if="darkTheme">
+                <img src="img/mail.png" alt="" v-else>
+            </a>
+            <a href="tel:+380500850161">
+                <img src="img/phone_l.png" alt="" v-if="darkTheme">
+                <img src="img/phone.png" alt="" v-else>
+            </a>
+        </div>
+    </div>
+<script src="vue.js"></script>
+<script>
+    new Vue({
+        el: "#root",
+        data: {
+            darkTheme: true
+        },
+        methods: {
+            toggleTheme() {
+                this.darkTheme = !this.darkTheme;
+            }
+        }
+    })
+</script>
+</body>
+</html>

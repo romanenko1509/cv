@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'SomeType';
+    src: url('fonts/SometypeMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: 'SomeType';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    padding: 100px 30px 30px 30px;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.header {
+    background-color: inherit;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    padding: 5px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.toggleTheme {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.toggleTheme img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+}
+
+.socials a {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.socials a img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.8em;
+    margin-bottom: 1em;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+.cmpny_name {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.cmpny_pos {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.cmpny_time {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+.skills li ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.projects li {
+    margin-bottom: 10px;
+}
+
+.projects li ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.projects a {
+    text-decoration: underline;
+}
+
+.dark {
+    background: #101010;
+    color: #FFF;
+}
+
+.white {
+    background: #FFFFFF;
+    color: #000000;
+}
