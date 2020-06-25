@@ -1,80 +1,68 @@
-# CV
-### Romanenko Nikita
+Front-end developer
+===================
 
-**15/09/1999 (20 e.o)**
+Nikita Romanenko
+----------------
 
-**Kharkiv, Ukraine**
+### 15/09/1999
 
-I have been engaged in Front-End development for more than 2 years. Have more than a year of experience in the previous company, before that I did various projects on freelance. Quickly adapt to the tasks of the company, always ready to learn and grow professionally. More than a couple of hundreds of work projects that I provided support and development passed through my hands. Also often took part in creating projects from scratch. I am able to quickly understand the essence of the task, if necessary, immediately discuss the issues that have arisen, adequately assess the time it will take to complete the task.
+### Kharkiv, Ukraine
 
----
+I have been developing Front-End for over 2 years. Behind the back of more than a hundred successfully completed projects, both in various companies and on freelance. I quickly adapt to the tasks of the company, I am always ready to learn and grow professionally. I adequately assess the tasks, time and resources necessary for their implementation, I can quickly navigate in case of difficulties and problems.
 
-## Technologies:
+Work experience
+---------------
 
-- HTML 5
-- CSS 3
-- CSS Frameworks (Bootstrap and other)
-- SASS
-- JavaScript
-- jQuery
-- Ajax
-- JSON
-- API
-- Git
-- Gulp 4
-- BEM
-- Semantical markup
-- W3C Validation
-- Base SEO
-- CMS (WordPress, Joomla, OpenCart and other)
-- Optimization of page loading speed by Google Page Speed
-- Basic knowledge React.JS
-- Basic knowledge SQL
-- Basic knowledge PHP
-- Basic knowledge NPM
-- Basic knowledge OOP
-- Basic knowledge MVC
-- Confident use of both Windows and UNIX-like systems (MacOS, Linux)
+-   "Apricode Digital Agency"
+    Front-end developer
+    October 2019 - Now
+-   "Aweb Systems"
+    Front-end developer
+    September 2018 - October 2019
+-   Freelance
+    Front-end developer
+    February 2018 - September 2018
 
----
+Skills
+------
+
+-   HTML
+    -   BEM Methodology
+    -   Semantical markup
+    -   W3C Validation
+    -   Accessibility
+-   CSS
+    -   CSS Frameworks
+        -   Bootstrap 3/4
+        -   Foundation
+        -   Materialize.css
+        -   Tailwind CSS
+    -   Preprocessors
+        -   SASS (SCSS)
+        -   LESS
+-   JavaScript
+    -   Vue.js + VueX
+    -   React.js + Redux experience
+    -   jQuery
+    -   TypeScript experience
+    -   Node.js experience
+    -   Ajax requests
+    -   API experience
+-   Project Build Tools
+    -   Gulp 3/4
+    -   Webpack
+    -   npm
+    -   Git
+-   Content Management Systems (CMS)
+    -   Laravel
+    -   WordPress
+    -   OpenCart
+-   Experience with PHP + SQL
+-   Understanding of principles Object-oriented programming (OOP)
+-   Skills of optimization Google Page Speed & SEO-Friendly
+-   Confident use of both Windows and UNIX-like systems (MacOS, Linux)
 # Portfolio
-
-PSD layouts made using SASS and Gulp builds
-
-1 [Link](https://romanenko1509.github.io/PSD_Lambda/)  
-[Source on GitHub](https://github.com/romanenko1509/PSD_Lambda)
-  
-2 [Link](https://romanenko1509.github.io/PSD_Claymore/)  
-[Source on GitHub](https://github.com/romanenko1509/PSD_Claymore)
-
-3 [Link](https://romanenko1509.github.io/PSD_MyCompany/)  
-[Source on GitHub](https://github.com/romanenko1509/PSD_MyCompany)
-
-4 [Link](https://romanenko1509.github.io/PSD_Marble/)  
-[Source on GitHub](https://github.com/romanenko1509/PSD_Marble)
-
-5 [Link](https://romanenko1509.github.io/PSD_Mark/)  
-[Source on GitHub](https://github.com/romanenko1509/PSD_Mark)
-
-Simple ToDo App in Vanilla JS with using AJAX + PHP  
-[Link](http://romanenko1509.zzz.com.ua/to-do/)  
-[Source on GitHub](https://github.com/romanenko1509/ToDoApp)
-
-Simple Weather App in React.JS  
-[Link](https://romanenko1509.github.io/reactWeatherApp/)  
-[Source on GitHub](https://github.com/romanenko1509/reactWeatherApp)
-
-Simple currency converter from UAH to USD written in Vanilla JavaScript with using the PrivatBank API  
-[Link](https://romanenko1509.github.io/ExchangeRates/)  
-[Source on GitHub](https://github.com/romanenko1509/ExchangeRates)
-
-Simple application in Vanilla JavaScript that allows you to encrypt / decrypt messages using the Caesar cipher method  
-[Link](https://romanenko1509.github.io/CaesarCipher/)  
-[Source on GitHub](https://github.com/romanenko1509/CaesarCipher)
-
-My personal Gulp template with documentation for a quick start working  
-[Link on GitHub](https://github.com/romanenko1509/gulpBasicTemplate)
-
+https://romanenko1509.github.io/cv/
 # Contacts
 
 Phone: +380500850161  
@@ -83,3 +71,4 @@ Skype: [Link](https://join.skype.com/invite/fAhLX2Kuntxu)
 Telegram: @romanenko1509  
 GitHub: [Link](https://github.com/romanenko1509)  
 LinkedIn: [Link](https://www.linkedin.com/in/romanenko1509/)  
+
