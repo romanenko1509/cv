@@ -13,9 +13,18 @@ I have been developing Front-End for over 2 years. Behind the back of more than 
 Work experience
 ---------------
 
+-   "P2PB2B Exchange"
+    Front-end developer
+    December 2020 - Now
+-   "WhiteBit Cryptocurrency Exchange"
+    Front-end developer
+    September 2020 - December 2020
+-   "Mbunity Development"
+    Front-end developer
+    June 2020 - September 2020
 -   "Apricode Digital Agency"
     Front-end developer
-    October 2019 - Now
+    October 2019 - June 2020
 -   "Aweb Systems"
     Front-end developer
     September 2018 - October 2019
