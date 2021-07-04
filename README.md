@@ -4,11 +4,13 @@ Front-end developer
 Nikita Romanenko
 ----------------
 
-### 15/09/1999
+### 15.09.1999
 
 ### Kharkiv, Ukraine
 
-I have been developing Front-End for over 2 years. Behind the back of more than a hundred successfully completed projects, both in various companies and on freelance. I quickly adapt to the tasks of the company, I am always ready to learn and grow professionally. I adequately assess the tasks, time and resources necessary for their implementation, I can quickly navigate in case of difficulties and problems.
+Разрабатываю Front-End около 3-х лет. За плечами более сотни успешно реализованных проектов, как в различных компаниях, так и на фрилансе. Я быстро подстраиваюсь под задачи компании, всегда готов учиться и развиваться как специалист. Адекватно оцениваю задачи, время и ресурсы, необходимые для их выполнения, умею быстро ориентироваться в случае возникновения трудностей, беру на себя инициативу при необходимости решения проблем.
+
+
 
 Work experience
 ---------------
@@ -35,41 +37,29 @@ Work experience
 Skills
 ------
 
--   HTML
-    -   BEM Methodology
-    -   Semantical markup
-    -   W3C Validation
-    -   Accessibility
--   CSS
-    -   CSS Frameworks
-        -   Bootstrap 3/4
-        -   Foundation
-        -   Materialize.css
-        -   Tailwind CSS
-    -   Preprocessors
-        -   SASS (SCSS)
-        -   LESS
+-   HTML (методологии, семантика, валидность, доступность)
+-   CSS (различные библиотеки и фреймворки [sass, less и т.д.], модульность, styled-components)
 -   JavaScript
-    -   Vue.js + VueX
-    -   React.js + Redux experience
-    -   jQuery
-    -   TypeScript experience
-    -   Node.js experience
-    -   Ajax requests
-    -   API experience
--   Project Build Tools
+    - Next.js
+    - React.js + Redux/Mobx + JSX
+    - Vue.js + VueX
+    - TypeScript
+    - jQuery
+    - Node.js (Написание ботов в Telegram, алгоритмы для обработки данных)
+    - API
+-   Инструменты сборки проекта
     -   Gulp 3/4
     -   Webpack
     -   npm
-    -   Git
--   Content Management Systems (CMS)
+-   Git
+-   Опыт работы с CMS
     -   Laravel
     -   WordPress
     -   OpenCart
--   Experience with PHP + SQL
--   Understanding of principles Object-oriented programming (OOP)
--   Skills of optimization Google Page Speed & SEO-Friendly
--   Confident use of both Windows and UNIX-like systems (MacOS, Linux)
+-   Опыт с PHP и БД (mySQL, MongoDB)
+-   Навыки оптимизации ресурса для Google Page Speed и SEO-Friendly оптимизации
+-   Свободное владение Windows и UNIX-подобных систем (MacOS, Linux)
+
 # Portfolio
 https://romanenko1509.github.io/cv/
 # Contacts
