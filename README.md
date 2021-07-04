@@ -1,40 +1,38 @@
 Front-end developer
 ===================
 
-Nikita Romanenko
+Никита Романенко
 ----------------
 
-### 15.09.1999
-
-### Kharkiv, Ukraine
+### 15.09.1999 (Харьков, Украина)
 
 Разрабатываю Front-End около 3-х лет. За плечами более сотни успешно реализованных проектов, как в различных компаниях, так и на фрилансе. Я быстро подстраиваюсь под задачи компании, всегда готов учиться и развиваться как специалист. Адекватно оцениваю задачи, время и ресурсы, необходимые для их выполнения, умею быстро ориентироваться в случае возникновения трудностей, беру на себя инициативу при необходимости решения проблем.
 
 
 
-Work experience
+Опыт работы
 ---------------
 
 -   "P2PB2B Exchange"
     Front-end developer
-    December 2020 - Now
+    Декабрь 2020 - Сейчас
 -   "WhiteBit Cryptocurrency Exchange"
     Front-end developer
-    September 2020 - December 2020
+    Сентябрь 2020 - Декабрь 2020
 -   "Mbunity Development"
     Front-end developer
-    June 2020 - September 2020
+    Июнь 2020 - Сентябрь 2020
 -   "Apricode Digital Agency"
     Front-end developer
-    October 2019 - June 2020
+    Октябрь 2019 - Июнь 2020
 -   "Aweb Systems"
     Front-end developer
-    September 2018 - October 2019
+    Сентябрь 2018 - Октябрь 2019
 -   Freelance
     Front-end developer
-    February 2018 - September 2018
+    Февраль 2018 - Сентябрь 2018
 
-Skills
+Навыки
 ------
 
 -   HTML (методологии, семантика, валидность, доступность)
@@ -60,9 +58,9 @@ Skills
 -   Навыки оптимизации ресурса для Google Page Speed и SEO-Friendly оптимизации
 -   Свободное владение Windows и UNIX-подобных систем (MacOS, Linux)
 
-# Portfolio
+# Портфолио
 https://romanenko1509.github.io/cv/
-# Contacts
+# Контакты
 
 Phone: +380500850161  
 Email: romanenko15091999@icloud.com  
