@@ -16,6 +16,9 @@ Front-end developer
 -   "P2PB2B Exchange"
     Front-end developer
     Декабрь 2020 - Сейчас
+-   "HTML Academy"
+    Наставник на курсе "Front-end разработчик"
+    Декабрь 2020 - Сейчас
 -   "WhiteBit Cryptocurrency Exchange"
     Front-end developer
     Сентябрь 2020 - Декабрь 2020
