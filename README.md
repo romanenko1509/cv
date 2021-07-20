@@ -18,7 +18,7 @@ Front-end developer
     Декабрь 2020 - Сейчас
 -   "HTML Academy"
     Наставник на курсе "Front-end разработчик"
-    Декабрь 2020 - Сейчас
+    Декабрь 2020 - Июль 2021
 -   "WhiteBit Cryptocurrency Exchange"
     Front-end developer
     Сентябрь 2020 - Декабрь 2020
