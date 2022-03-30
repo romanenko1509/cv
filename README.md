@@ -13,9 +13,12 @@ Front-end developer
 Опыт работы
 ---------------
 
+-   "Overdose Digital"
+    Front-end developer
+    Октябрь 2021 - Апрель 2022
 -   "P2PB2B Exchange"
     Front-end developer
-    Декабрь 2020 - Сейчас
+    Декабрь 2020 - Октябрь 2021
 -   "HTML Academy"
     Наставник на курсе "Front-end разработчик"
     Декабрь 2020 - Июль 2021
@@ -58,6 +61,7 @@ Front-end developer
     -   WordPress
     -   OpenCart
 -   Опыт с PHP и БД (mySQL, MongoDB)
+-   Опыт работы с Shopify
 -   Навыки оптимизации ресурса для Google Page Speed и SEO-Friendly оптимизации
 -   Свободное владение Windows и UNIX-подобных систем (MacOS, Linux)
 
