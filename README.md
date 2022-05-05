@@ -17,7 +17,7 @@ Front-end developer
 
 -   "Overdose Digital"
     Front-end developer
-    Октябрь 2021 - Апрель 2022
+    Октябрь 2021 - Май 2022
 -   "P2PB2B Exchange"
     Front-end developer
     Декабрь 2020 - Октябрь 2021

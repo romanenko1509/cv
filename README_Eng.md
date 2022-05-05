@@ -17,7 +17,7 @@ Work experience
 
 -   "Overdose Digital"
     Front-end developer
-    October 2021 - April 2022
+    October 2021 - May 2022
 -   "P2PB2B Exchange"
     Front-end developer
     December 2020 - October 2021
