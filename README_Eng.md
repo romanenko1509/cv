@@ -6,7 +6,7 @@ Nikita Romanenko
 
 ### 15.09.1999 (Kharkiv, Ukraine)
 
-I have been developing Front-End for over 3 years. Behind more than a hundred successfully implemented projects, both in various companies and freelance. I quickly adapt to the tasks of the company, easily find a common language in the team, and am always ready to learn and develop as a specialist. I adequately estimate the tasks, time and resources required for their implementation, I can quickly navigate in case of difficulties, take the initiative in solving problems and improving the project.
+I have been developing Front-End for over 4 years. Behind more than a hundred successfully implemented projects, both in various companies and freelance. I quickly adapt to the tasks of the company, easily find a common language in the team, and am always ready to learn and develop as a specialist. I adequately estimate the tasks, time and resources required for their implementation, I can quickly navigate in case of difficulties, take the initiative in solving problems and improving the project.
 
 Engaged in development from scratch and long-term support of Stores on OpenCart. I made landings, corporate websites, developed video hosting. He was a developer at two large crypto exchanges, was engaged in writing Telegram bots on Node.JS, bots for processing large data from a database, writing admin panels for working with data. At the last place of work, he developed large Stores on Shopify for Western businesses.
 
@@ -15,6 +15,9 @@ Engaged in development from scratch and long-term support of Stores on OpenCart.
 Work experience
 ---------------
 
+-   "Mamma Mia Covers"
+    Front-end developer
+    May 2022 - Now
 -   "Overdose Digital"
     Front-end developer
     October 2021 - May 2022
