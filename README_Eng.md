@@ -8,7 +8,7 @@ Nikita Romanenko
 
 I have been developing Front-End for over 4 years. Behind more than a hundred successfully implemented projects, both in various companies and freelance. I quickly adapt to the tasks of the company, easily find a common language in the team, and am always ready to learn and develop as a specialist. I adequately estimate the tasks, time and resources required for their implementation, I can quickly navigate in case of difficulties, take the initiative in solving problems and improving the project.
 
-Engaged in development from scratch and long-term support of Stores on OpenCart. I made landings, corporate websites, developed video hosting. He was a developer at two large crypto exchanges, was engaged in writing Telegram bots on Node.JS, bots for processing large data from a database, writing admin panels for working with data. At the last place of work, he developed large Stores on Shopify for Western businesses.
+Starting from scratch and dowstring support for IM on OpenCart. Robiv landings, corporate sites, expanding video hosting. Being a retailer on two great crypto exchanges, writing telegram robots on Node.JS, robots for processing great data from a database, writing admin panels for data robots. For the rest of my life, I dabbled in Shopify, working both in outsourcing and in food companies for the Western market.
 
 
 
@@ -66,7 +66,7 @@ Skills
     -   WordPress
     -   OpenCart
 -   Experience with PHP and DataBases (mySQL, MongoDB)
--   Experience with Shopify
+-   Shopify
 -   Resource optimization skills for Google Page Speed и SEO-Friendly optimization
 -   Fluency Windows and UNIX-like systems (MacOS, Linux)
 
