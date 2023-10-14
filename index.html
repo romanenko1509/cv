@@ -1,228 +1,186 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
+    <title>Mykyta Romanenko | CV FrontEnd Developer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="root" :class="{dark: darkTheme, white: !darkTheme}">
-        <header class="header">
-            <div class="socials">
-                <a href="https://github.com/romanenko1509">
-                    <img src="img/github_l.png" alt="" v-if="darkTheme">
-                    <img src="img/github.png" alt="" v-else>
-                </a>
-                <a href="https://www.linkedin.com/in/romanenko1509/">
-                    <img src="img/linkedin_l.png" alt="" v-if="darkTheme">
-                    <img src="img/linkedin.png" alt="" v-else>
-                </a>
-                <a href="https://t.me/romanenko1509">
-                    <img src="img/telegram_l.png" alt="" v-if="darkTheme">
-                    <img src="img/telegram.png" alt="" v-else>
-                </a>
-                <a href="https://join.skype.com/invite/fAhLX2Kuntxu">
-                    <img src="img/skype_l.png" alt="" v-if="darkTheme">
-                    <img src="img/skype.png" alt="" v-else>
-                </a>
-                <a href="mailto:romanenko15091999@icloud.com">
-                    <img src="img/mail_l.png" alt="" v-if="darkTheme">
-                    <img src="img/mail.png" alt="" v-else>
-                </a>
-                <a href="tel:+380500850161">
-                    <img src="img/phone_l.png" alt="" v-if="darkTheme">
-                    <img src="img/phone.png" alt="" v-else>
-                </a>
+    <div class="row">
+        <div class="sidebar">
+            <img src="/img/photo.jpg" alt="Photo" class="photo">
+            <div class="name">Mykyta Romanenko</div>
+            <div class="position">FrontEnd Developer (5+ years of experience)</div>
+            <div class="block__title">
+                <img src="/img/icon-about.svg" alt="About Icon">
+                About me
             </div>
-            <div class="toggleTheme" @click="toggleTheme">
-                <img src="img/light.png" alt="" v-if="darkTheme">
-                <img src="img/dark.png" alt="" v-else>
+            <div class="block__text">
+                <strong>Kharkiv, Ukraine (15.09.1999)</strong>
+                <br>
+                <br>
+                I have been doing Front-End development for more than 5 years. I have experience with various projects and technologies both in companies and as a freelancer. I quickly adapt to the company’s tasks and easily find a common language in the team. I adequately assess tasks, the time and resources required for their implementation, I can quickly navigate in case of difficulties, take initiative in solving problems and improving the project.
             </div>
-        </header>
-        <h1>Микита Романенко - Front-end developer <span>15.09.1999 (Харків, Україна)</span></h1>
-        <p>Розробляю Front-End понад 4 роки. За плечима більше сотні успішно реалізованих проектів як у різних компаніях, так і на фрілансі. Я швидко підлаштовуюсь під завдання компанії, легко знаходжу спільну мову в команді, завжди готовий навчатися та розвиватися як фахівець. Адекватно оцінюю завдання, час та ресурси, необхідні для їх виконання, вмію швидко орієнтуватися у разі виникнення труднощів, беру на себе ініціативу при вирішенні проблем та покращення проекту.</p>
-        <p>Займався розробкою з нуля та довгостроковою підтримкою ІМ на OpenCart. Робив лендінги, корпоративні сайти, розробляв відеохостинги. Був розробником на двох великих криптобіржах, займався написанням роботів у телеграм на Node.JS, роботів для обробки великих даних з БД, написання admin-панелей для роботи з даними. Останні кілька років заглибився в Shopify, працював як в аустсорсових, так і в продуктових компаніях на західний ринок.</p>
-        <p>
-        </p>
-        <h2>Досвід роботи</h2>
-        <ul>
-            <li>
-                <div class="cmpny_name">"Mamma Mia Covers"</div>
-                <div class="cmpny_pos">Front-end developer</div>
-                <div class="cmpny_time">Травень 2022 - Зараз</div>
-            </li>
-            <li>
-                <div class="cmpny_name">"Overdose Digital"</div>
-                <div class="cmpny_pos">Front-end developer</div>
-                <div class="cmpny_time">Жовтень 2021 - Травень 2022</div>
-            </li>
-            <li>
-                <div class="cmpny_name">"P2PB2B Exchange"</div>
-                <div class="cmpny_pos">Front-end developer</div>
-                <div class="cmpny_time">Грудень 2020 - Жовтень 2021</div>
-            </li>
-            <li>
-                <div class="cmpny_name">"HTML Academy"</div>
-                <div class="cmpny_pos">Наставник на курсі "Front-end розробник"</div>
-                <div class="cmpny_time">Грудень 2020 - Липень 2021</div>
-            </li>
-            <li>
-                <div class="cmpny_name">"WhiteBit Cryptocurrency Exchange"</div>
-                <div class="cmpny_pos">Front-end developer</div>
-                <div class="cmpny_time">Вересень 2020 - Грудень 2020</div>
-            </li>
-            <li>
-                <div class="cmpny_name">"Mbunity Development"</div>
-                <div class="cmpny_pos">Front-end developer</div>
-                <div class="cmpny_time">Червень 2020 - Вересень 2020</div>
-            </li>
-            <li>
-                <div class="cmpny_name">"Apricode Digital Agency"</div>
-                <div class="cmpny_pos">Front-end developer</div>
-                <div class="cmpny_time">Жовтень 2019 - Червень 2020</div>
-            </li>
-            <li>
-                <div class="cmpny_name">"Aweb Systems"</div>
-                <div class="cmpny_pos">Front-end developer</div>
-                <div class="cmpny_time">Вересень 2018 - Жовтень 2019</div>
-            </li>
-            <li>
-                <div class="cmpny_name">Freelance</div>
-                <div class="cmpny_pos">Front-end developer</div>
-                <div class="cmpny_time">Лютий 2018 - Вересень 2018</div>
-            </li>
-        </ul>
-        <h2>Навички</h2>
-        <ul class="skills">
-            <li>
-                HTML (методології, семантика, валідність, доступність)
-            </li>
-            <li>
-                CSS (різні бібліотеки та фреймворки [sass, less і т.д.], модульність, styled-components)                        </li>
-            <li>
-                JavaScript
+            <div class="block__title">
+                <img src="/img/icon-education.svg" alt="Education Icon">
+                Education
+            </div>
+            <div class="block__text">
                 <ul>
-                    <li>Next.js</li>
-                    <li>React.js + Redux/Mobx + JSX</li>
-                    <li>Vue.js + VueX</li>
-                    <li>TypeScript</li>
-                    <li>jQuery</li>
-                    <li>Node.js (Написання ботів у Telegram, алгоритми для обробки даних)</li>
-                    <li>API</li>
+                    <li><strong>Bachelor's degree of "Ukrainian Engineering Pedagogics Academy"</strong> - Faculty of Computer Science (2022 - Now)</li>
+                    <li><strong>Master's degree of "Skovoroda Kharkiv National Pedagogical University gallary"</strong> - Faculty of Political Science (2021 - 2022)</li>
+                    <li><strong>Bachelor's degree of "Skovoroda Kharkiv National Pedagogical University gallary"</strong> - Faculty of Psychology and Sociology (2017 - 2021)</li>
                 </ul>
-            </li>
-            <li>
-                Інструменти збирання проекту
+            </div>
+            <div class="block__title">
+                <img src="/img/icon-lang.svg" alt="Languages Icon">
+                Languages
+            </div>
+            <div class="block__text">
                 <ul>
-                    <li>Gulp 3/4</li>
-                    <li>Webpack</li>
-                    <li>npm</li>
+                    <li><strong>Ukrainian</strong> - Native</li>
+                    <li><strong>English</strong> - Pre-Intermediate</li>
                 </ul>
-            </li>
-            <li>Git</li>
-            <li>
-                Досвід роботи з CMS
+            </div>
+            <div class="block__title">
+                <img src="/img/icon-contact.svg" alt="Contacts Icon">
+                Contacts
+            </div>
+            <div class="block__text">
+                <div class="contact__item">
+                    <strong>Phone</strong> - <a href="tel:+380500850161">+380500850161</a>
+                </div>
+                <div class="contact__item">
+                    <strong>Email</strong> - <a href="mailto:romanenko15091999@icloud.com">romanenko15091999@icloud.com</a>
+                </div>
+                <div class="contact__item">
+                    <strong>Telegram</strong> - <a href="https://t.me/romanenko1509" target="_blank">@romanenko1509</a>
+                </div>
+                <div class="contact__item">
+                    <strong>LinkedIn</strong> - <a href="https://www.linkedin.com/in/romanenko1509/" target="_blank">LINK</a>
+                </div>
+                <div class="contact__item">
+                    <strong>GitHub</strong> - <a href="https://github.com/romanenko1509" target="_blank">LINK</a>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="block__title">
+                <img src="/img/icon-experience.svg" alt="Experience Icon">
+                Experience
+            </div>
+            <div class="block__text">
                 <ul>
-                    <li>Laravel</li>
-                    <li>WordPress</li>
-                    <li>OpenCart</li>
+                    <li>
+                        <div class="exp__name"><strong>"Mamma Mia Covers"</strong> - Shopify/React.js developer</div>
+                        <div class="exp__date">May 2022 - Now</div>
+                    </li>
+                    <li>
+                        <div class="exp__name"><strong>"Overdose Digital"</strong> - Shopify developer</div>
+                        <div class="exp__date">August 2021 - May 2022</div>
+                    </li>
+                    <li>
+                        <div class="exp__name"><strong>"HTML Academy"</strong> - Mentor at the course "Front-end developer"</div>
+                        <div class="exp__date">December 2020 - August 2021</div>
+                    </li>
+                    <li>
+                        <div class="exp__name"><strong>"P2PB2B Exchange"</strong> - Next.js FrontEnd Developer</div>
+                        <div class="exp__date">June 2020 - October 2021</div>
+                    </li>
+                    <li>
+                        <div class="exp__name"><strong>"APRICODE Digital Agency"</strong> - FrontEnd Developer</div>
+                        <div class="exp__date">March 2019 - June 2020</div>
+                    </li>
+                    <li>
+                        <div class="exp__name"><strong>Freelance</strong> - Web Developer</div>
+                        <div class="exp__date">February 2018 - March 2019</div>
+                    </li>
                 </ul>
-            </li>
-            <li>Досвід з PHP и БД (mySQL, MongoDB)</li>
-            <li>Shopify</li>
-            <li>Навички оптимізації ресурсу для Google Page Speed та SEO-Friendly оптимізації</li>
-            <li>Вільне володіння Windows та UNIX-подібних систем (MacOS, Linux)</li>
-        </ul>
-        <h2>Портфоліо</h2>
-        <ul class="projects">
-            <li>
-                Мій сайт-візитка
-                <ul>
-                    <li><a target="_blank" href="https://romanenko1509.github.io/contact-me/">Посилання</a></li>
+            </div>
+            <div class="block__title">
+                <img src="/img/icon-skills.svg" alt="Skills Icon">
+                Skills
+            </div>
+            <div class="block__text">
+                <ul class="skills">
+                    <li>
+                        Javascript
+                        <ul>
+                            <li>React.js + Next.js</li>
+                            <li>Experience with Redux/Mobx</li>
+                            <li>Vue.js + VueX</li>
+                            <li>Experience with Typescript</li>
+                            <li>jQuery</li>
+                            <li>Experience with Node.js</li>
+                        </ul>
+                    </li>
+                    <li>HTML (methodology, semantics, validity, accessibility)</li>
+                    <li>CSS (various libraries and frameworks [sass, less и т.д.], modularity, styled-components)</li>
+                    <li>Git</li>
+                    <li>Webpack/Gulp</li>
+                    <li>
+                        CMS
+                        <ul>
+                            <li>Shopify</li>
+                            <li>BigCommerce</li>
+                            <li>WordPress</li>
+                            <li>OpenCart</li>
+                            <li>Experience with Laravel</li>
+                        </ul>
+                    </li>
+                    <li>Experience with PHP</li>
+                    <li>Experience with mySQL</li>
+                    <li>Resource optimization skills for Google Page Speed и SEO-Friendly optimization</li>
+                    <li>Fluency Windows and UNIX-like systems (MacOS, Linux)</li>
                 </ul>
-            </li>
-            <li>
-                Великий E-Commerce проект для ринку США
-                <ul>
-                    <li><a target="_blank" href="https://mammamiacovers.com/">Посилання</a></li>
+            </div>
+            <div class="block__title">
+                <img src="/img/icon-projects.svg" alt="Projects Icon">
+                Some of the projects
+            </div>
+            <div class="block__text">
+                <ul class="skills">
+                    <li>
+                        E-Commerce Projects
+                        <ul>
+                            <li><a href="https://mammamiacovers.com/" target="_blank">mammamiacovers.com</a> - Shopify</li>
+                            <li><a href="https://www.patagonia.com/" target="_blank">patagonia.com</a> - Shopify</li>
+                            <li><a href="https://cultiver.com.au/" target="_blank">cultiver.com.au</a> - Shopify</li>
+                            <li><a href="https://www.cb2.com/" target="_blank">cb2.com</a> - Shopify</li>
+                            <li><a href="https://www.newseum.de/" target="_blank">newseum.de</a> - Shopify</li>
+                            <li><a href="https://www.kerryagribusiness.ie/" target="_blank">kerryagribusiness.ie</a> - Shopify</li>
+                            <li><a href="https://shop.tbn.org/" target="_blank">shop.tbn.org</a> - BigCommerce</li>
+                            <li><a href="https://www.iowacustoms.com/" target="_blank">iowacustoms.com</a> - BigCommerce</li>
+                            <li><a href="https://gadgik.net/" target="_blank">gadgik.net</a> - OpenCart</li>
+                            <li><a href="https://agroambar.com/" target="_blank">agroambar.com</a> - OpenCart</li>
+                            <li><a href="https://tara.pet/" target="_blank">tara.pet</a> - WordPress</li>
+                            <li><a href="https://fitxr.com/" target="_blank">fitxr.com</a> - WordPress</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Cryptocurrency projects
+                        <ul>
+                            <li><a href="https://p2pb2b.io/" target="_blank">p2pb2b.io</a> - Next.js</li>
+                            <li><a href="https://emirex.com/" target="_blank">emirex.com</a> - Nuxt.js</li>
+                            <li><a href="https://liquidlines.io/" target="_blank">liquidlines.io</a> - React.js</li>
+                            <li><a href="https://whitebit.com/" target="_blank">whitebit.com</a> - Next.js</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Personal projects
+                        <ul>
+                            <li>App for finance management on Vue.js [<a href="https://vuefinancecrm.web.app/login?message=login" target="_blank">LINK</a>] [<a href="https://github.com/romanenko1509/VueFinanceManagementApplication" target="_blank">SOURCE</a>]</li>
+                            <li>Password generator with history on Vue.js [<a href="https://romanenko1509.github.io/password-generator//" target="_blank">LINK</a>] [<a href="https://github.com/romanenko1509/Vue_Password_Generator" target="_blank">SOURCE</a>]</li>
+                            <li>React.js Weather App [<a href="https://romanenko1509.github.io/reactWeatherApp/" target="_blank">LINK</a>] [<a href="https://github.com/romanenko1509/reactWeatherApp" target="_blank">SOURCE</a>]</li>
+                            <li>A simple ToDo app using MongoDB & Express.js [<a href="https://mongo-express-todo-app.herokuapp.com/" target="_blank">LINK</a>] [<a href="https://github.com/romanenko1509/mongo-express-todo-app" target="_blank">SOURCE</a>]</li>
+                        </ul>
+                    </li>
                 </ul>
-            </li>
-            <li>
-                Великий E-Commerce проект спортивного снарядження для ринку США
-                <ul>
-                    <li><a target="_blank" href="https://patagonia.com/">Посилання</a></li>
-                </ul>
-            </li>
-            <li>
-                Додаток для обліку особистих фінансів на Vue.js
-                <ul>
-                    <li><a target="_blank" href="https://vuefinancecrm.web.app/login?message=login">Посилання</a></li>
-                    <li><a target="_blank" href="https://github.com/romanenko1509/VueFinanceManagementApplication">Вихідний код</a></li>
-                </ul>
-            </li>
-            <li>
-                Генератор паролів з історією на Vue.js
-                <ul>
-                    <li><a target="_blank" href="https://romanenko1509.github.io/Vue_Password_Generator/">Посилання</a></li>
-                    <li><a target="_blank" href="https://github.com/romanenko1509/Vue_Password_Generator">Вихідний код</a></li>
-                </ul>
-            </li>
-            <li>
-                Погодний додаток на React.JS
-                <ul>
-                    <li><a target="_blank" href="https://romanenko1509.github.io/reactWeatherApp/">Посилання</a></li>
-                    <li><a target="_blank" href="https://github.com/romanenko1509/reactWeatherApp">Вихідний код</a></li>
-                </ul>
-            </li>
-            <li>
-                Простий конвертер валют на чистому JS за допомогою PrivatBank API
-                <ul>
-                    <li><a target="_blank" href="https://romanenko1509.github.io/ExchangeRates/">Посилання</a></li>
-                    <li><a target="_blank" href="https://github.com/romanenko1509/ExchangeRates">Вихідний код</a></li>
-                </ul>
-            </li>
-            <li>
-                Простий ToDo додаток з використанням MongoDB & Express.js
-                <ul>
-                    <li><a target="_blank" href="https://mongo-express-todo-app.herokuapp.com/">Посилання</a></li>
-                    <li><a target="_blank" href="https://github.com/romanenko1509/mongo-express-todo-app">Вихідний код</a></li>
-                </ul>
-            </li>
-            <li>
-                Брав участь у розробці великого проекту – біржа криптовалют P2PB2B
-                <ul>
-                    <li><a target="_blank" href="https://p2pb2b.io/">Посилання</a></li>
-                </ul>
-            </li>
-            <li>
-                Комерційні проекти (інтернет-магазини, корпоративні сайти тощо)
-                <ul>
-                    <li><a target="_blank" href="https://gadgik.net/">gadgik.net</a></li>
-                    <li><a target="_blank" href="https://bestbarber.com.ua/">bestbarber.com.ua</a></li>
-                    <li><a target="_blank" href="https://tara.pet/">tara.pet</a></li>
-                    <li><a target="_blank" href="https://barintoy.com/">barintoy.com</a></li>
-                    <li><a target="_blank" href="https://agroambar.com/">agroambar.com</a></li>
-                    <li>І багато інших</li>
-                </ul>
-            </li>
-        </ul>
+            </div>
+        </div>
     </div>
-<script src="vue.js"></script>
-<script>
-    new Vue({
-        el: "#root",
-        data: {
-            darkTheme: false,
-        },
-        methods: {
-            toggleTheme() {
-                this.darkTheme = !this.darkTheme;
-            }
-        }
-    })
-</script>
 </body>
 </html>
